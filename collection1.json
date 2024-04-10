@@ -1,0 +1,41 @@
+{
+    "info": {
+      "_postman_id": "5c67bc84-6241-4b4b-bf33-8d12f63b9247",
+      "name": "JSONPlaceholder",
+      "description": "",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Get Post 1",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "https://jsonplaceholder.typicode.com/posts/{{postId}}",
+            "protocol": "https",
+            "host": [
+              "jsonplaceholder",
+              "typicode",
+              "com"
+            ],
+            "path": [
+              "posts",
+              "{{postId}}"
+            ]
+          }
+        },
+        "response": []
+      }
+    ],
+    "variable": [
+      {
+        "id": "6078b3e1-6e82-420f-842a-6f536579a8ec",
+        "key": "postId",
+        "value": "1",
+        "type": "string"
+      }
+    ]
+  }
+  
