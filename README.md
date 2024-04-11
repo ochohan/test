@@ -12,9 +12,9 @@ This Bamboo spec plan facilitates the execution of a bash script using the `gclo
 
 Suppose the filename is `gcloud_commands.sh`, you would run the plan with the following variable:
 
-```variable when running the plan
+* Variable when running the plan
 filename=gcloud_commands.sh
-**|
+
 
 ## Important Note
 
@@ -37,9 +37,9 @@ This Bamboo spec plan facilitates the execution of a postman collection using ne
 
 Suppose the filename is `collection1.json`, you would run the plan with the following variable:
 
-```variable when running the plan
+* Variable when running the plan
 filename=collection1.json
-**|
+
 
 ## Important Note
 
